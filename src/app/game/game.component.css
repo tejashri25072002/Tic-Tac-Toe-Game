@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.outer-container{
+    display: flex;
+    flex-direction: column;
+    background: radial-gradient(circle,#5d0574 50%, #cc99ff 100%);
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-gap: 0px;
+}
+
+app-board{
+    border: 1px solid black;
+    height: 100px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px 0px;
+    width: 100%;
+    margin-right: 30px;
+    color:  wheat;
+}
+
+button{
+    font-size: 40px;
+    padding: 30px;
+    border-radius: 50px;
+    border: none;
+    margin: 20px;
+    width: 450px;
+}
+
+span{
+    color:palevioletred
+}
+
+button:hover{
+    background-color: rgb(199, 22, 125);
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+h2{
+    font-size: 110px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color:  wheat;
+}
